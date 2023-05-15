@@ -1,0 +1,543 @@
+@font-face {
+    font-family: 'Mytupi Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mytupi Regular'), url('./fonts/mytupi.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Mytupi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mytupi Bold'), url('./fonts/mytupiBOLD.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Mytupi Ultra-condensed ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mytupi Ultra-condensed ExtraBold'), url('./fonts/mytupiIMPACTO.woff') format('woff');
+    }
+    
+    body {
+        font-family: 'Mytupi Regular';
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        color: #424242;
+        background-color: #3A86FF;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .portada{
+        background-image: url("./img/Estatua.jpg");
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Sobre{
+        background-image: url("./img/ny.jpg");
+    }
+
+    .portCat{
+        background-image: url("./img/subway.svg");
+    }
+
+    .docs{
+        background-image: url("./img/docs.jpg");
+    }
+
+    .fondo {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-bottom: 4em;
+    }
+
+    .pattern {
+        background-image: url("./img/pattern.png");
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 1em;
+    }
+
+    header {
+        background-color: #8338EC;
+        border-bottom: 1em solid #FFBE0B;
+    }
+
+    footer{
+        background-color: #8338EC;
+        border-top: 1em solid #FFBE0B;
+    }
+
+    .navFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuItem {
+        margin: 0 1em;
+    }
+
+    .navLink {
+        font-size: 2em;
+        font-family: 'Mytupi Bold';
+        text-decoration: none;
+        color: #FFBE0B;
+    }
+    .navLink[href^="#"]{
+        color: #FB5607;
+    }
+
+    .navLink:hover{
+        color: #FF006E;
+    }
+
+    .grow { 
+        transition: all .2s ease-in-out; 
+        }
+        
+        .grow:hover { 
+        transform: scale(1.1); 
+        }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 1px;
+        align-items: center;
+        margin-left: -3em;
+        margin-bottom: 3em;
+    }
+
+    #logo {
+        margin: 1em;
+        transition: all .2s ease-in-out; 
+    }
+
+    #logo:hover{
+        transform: scale(1.1); 
+    }
+
+    main div, footer div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer div {
+        text-align: center;
+        width: 15em;
+    }
+
+    .footerDiv{
+        margin: 2em auto auto auto;
+        color:#FFFFFF;
+        font-family: 'Mytupi Bold';
+    }
+
+    .credFondo{
+        margin: 2em auto auto auto;
+        color:#FFFFFF;
+    }
+
+    .footLink {
+        display: inline-block;
+        font-family: 'Mytupi Bold';
+        text-decoration: none;
+        color: #FFBE0B;
+    }
+   
+    .footLink:hover{
+        color: #FF006E;
+    }
+
+
+    input[type=button] {
+        font-family: 'Mytupi Bold';
+        font-size: 1em;
+        background-color: #FB5607;
+        border: 4px solid #FFBE0B;
+        border-radius: 10px;
+        color: #FFFFFF;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 1em 0 2em;
+        cursor: pointer;
+      }
+
+    #credit{
+        color: #FFFFFF;
+        margin-bottom: 1em;
+    }
+
+    h1{
+        font-size: 2em;
+        color: #FFBE0B;
+        font-family: 'Mytupi Bold';
+        text-align: center;
+        text-shadow: 4px 4px #8338EC;
+    }
+
+    h2{
+        font-size: 1.5em;
+        color: #FFBE0B;
+        font-family: 'Mytupi Bold';
+        text-shadow: 3px 3px #8338EC;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.6em;
+        color: #FFBE0B;
+        font-family: 'Mytupi Regular';
+        text-shadow: 2px 2px #8338EC;
+    }
+
+    #gancho{
+        color: #FFBE0B;
+        font-family: 'Mytupi Bold';
+        margin: 6em 0 4em 2em;
+        width:25em;
+    }
+
+    .ganchoItem{
+        text-align: left;
+        margin: 0;
+        width: 60%;
+        font-size: 1.5em;
+    }
+
+    .ganchoItem2{
+        text-align: left;
+        margin: 0;
+        font-size: 3em;
+    }
+
+
+    .linkGancho{
+        text-decoration: none;
+        color: #FF006E;
+    }
+
+    .linkGancho:hover{
+        color: #FFFFFF;
+    }
+
+    article {
+        margin: 2em auto 4em auto;
+        color:#424242;
+    }
+
+    .burbuja {
+        background-color: #FFFFFF;
+        border: 10px solid #8338EC;
+        border-radius: 10px;
+        padding: 16px 32px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .linkArt {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Mytupi Bold';
+        color: #FF006E;
+    }
+
+    .linkArt:hover {
+        color: #FB5607;
+    }
+
+
+    
+    legend {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    fieldset{
+        border: 0;
+    }
+    
+    .aviso {
+        font-size: 0.9rem;
+        margin-bottom: 1em;
+    }
+
+    textarea, label {
+        display: inline-block;
+        position: relative;
+      }
+
+    textarea{
+        width: 100%;
+        margin-top: -1em;
+        margin-bottom: 0px;
+    }
+    
+    label {
+        margin-bottom: 1em;
+    }
+
+    label input {
+        margin-top: 1em;
+        display: block;
+        width: 100%;
+        height: 2em;
+    }
+
+    #formSocios{
+        margin-top: -6em;
+        margin-bottom: 1em;
+        color: white;
+        font-size: 1.1rem;
+        padding: 12px 30px 12px 30px;
+        border: #FF006E;
+        border-radius: 5px;
+        background-color: #FF006E;
+    }
+
+    #formSocios:hover{
+        border: 4px solid #8338EC;
+    }
+
+    .ast{
+        color: #FF006E;
+    }
+
+    .catContainer {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+        align-items: center;
+    }
+
+    .catH3{
+        text-align: center;
+        color: #424242;
+        text-shadow: none;
+        margin: 0;
+        font-size: 120%;
+    }
+
+    .iconosCat{
+        margin-bottom: 1em;
+    }
+
+    .parCat{
+        margin: 0;
+        color: #424242;
+    }
+
+    .catLink{
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .docH1{
+        text-align: center;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+
+    .linkList{
+        color:#FFFFFF;
+        font-size: 2.5em;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Mytupi Bold';
+    }
+
+    .linkList:hover {
+        color: #FFBE0B;
+    }
+
+    .listas li.grow {
+        position: relative;
+        list-style-type: none;
+        width: 60%;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .listas li.grow span{
+        font-size: 2.5em;
+        font-family: "Mytupi Bold";
+        color: #FFFFFF;
+    }
+
+    .listas li.grow::before{
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: -40px;
+        width: 32px;
+        height: 32px;
+        background-image: url("./img/star.png");
+        background-repeat: no-repeat;
+    }
+
+    .artImg{
+        width: 90%;
+        margin-bottom: 3em;
+        border: 0.5em solid #424242; 
+        outline: 0.5em solid #FFBE0B;
+        border-radius: 2em;
+    }
+
+    figcaption {
+        width:fit-content;
+        margin: -2em auto 2em auto;
+        color: #FFFFFF;
+    }
+
+    @media (max-width: 640px) {
+        .ganchoItem , .footerDiv {
+            line-height: 1.5em;
+        }
+
+        .listas {
+            line-height: 3em;
+        }
+
+        .ganchoItem2{
+            margin-top: 0.5em;
+        }
+
+        .menuItem{
+            margin-bottom: 1em;
+        }
+
+        .linkList{
+            font-size: 2em;
+        }
+
+        h1{
+            line-height: 1.5em;
+        }
+    }
+
+    @media (min-width: 641px) {
+
+        nav ul{
+            margin: 3em 4em;
+            flex-direction: row;
+            
+        }
+
+        footer div{
+            width: 25em;
+        }
+
+        .ganchoItem{
+            text-align: left;
+            margin: 0;
+            width: auto;
+            font-size: 2em;
+        }
+    
+        .ganchoItem2{
+            text-align: left;
+            margin: 0;
+            font-size: 8em;
+        }
+
+        #gancho{
+            margin: 6em 0 10em 2em;
+            width:36em;
+        }
+
+        article {
+            width: 35em;
+        }
+
+        .listas{
+            width: fit-content;
+        }
+
+        .artImg{
+            width: 120%;
+            margin-left: -10%;
+            margin-bottom: 3em;
+            border: 0.5em solid #424242; 
+            outline: 0.5em solid #FFBE0B;
+            border-radius: 2em;
+        }
+
+        h1{
+            font-size: 5em;
+        }
+        h2{
+            font-size: 3em;
+        }
+
+        .catH3{
+            font-size: 1.5em;
+        }
+
+        .docH1{
+            font-size: 3em;
+        }
+    }
+
+    @media (min-width: 1008px) {
+        
+        .navFlex {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        footer div{
+            width: 60em;
+        }
+
+        #gancho{
+            margin: 6em 0 16em 2em;
+            width:50em;
+        }
+
+        article {
+            width: 60em;
+        }
+
+        textarea{
+            width: 200%;
+        }
+
+        .catContainer {
+            flex-direction: row;
+        }
+
+        .catContainer .burbuja {
+            margin-left: 2em;
+            margin-bottom: 0;
+            box-sizing: border-box;
+            height: 250px;
+        }
+
+        .catH3{
+            text-align: left;
+            margin-bottom: 0.2em;
+        }
+
+        .artImg{
+            width: 120%;
+        }
+
+        }
+
+    

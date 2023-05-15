@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Nueva York de Hugo Manjón-Cabeza Taillefer</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="math.js"></script>
+    <script src="funciones.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="navFlex">
+        <div class="">
+        <a href="index.html"> <img id="logo" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        </div>
+    
+         <div>
+          <nav>
+              <ul>
+                  <li class="menuItem grow"><a  class="navLink" href="categorias.html">
+                      Categorías
+                      </a></li>
+              
+                  <li class="menuItem grow"><a class="navLink" href="presentacion.html">
+                      Sobre la Web 
+                      </a></li>
+                  
+                  <li class="menuItem grow"><a class="navLink" href="documentacion.html">
+                      Documentación 
+                      </a></li>
+                  </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    
+    <main class="fondo pattern">
+      <article>
+        <h1>5th Avenue</h1>
+
+        <div class="burbuja">
+          <p>La quinta avenida es uno de los lugares que más frecuentamos en nuestra visita a la ciudad (porque perdimos las maletas, pero eso es otra historia). Tiene una gran cantidad de tiendas y de puntos de interés, juntos entre sí y perfectos para pasar el día viéndolos.</p>
+          <h4>Puntos de interés</h4>
+          <p>En primer lugar tenemos el <b>Rockefeller Center</b>, famoso por su <a target="_blank" href="art5.html" class="linkArt grow">observatorio</a> y por la pista de patinaje sobre hielo que construyen cada invierno. Por si esto no fuera suficiente, la plaza está rodeada por tiendas de lujo como Tous y Tiffany & Co. Y al final de la calle se encuentra el plató donde graba <b>Jimmy Fallon</b> <a target="_blank" href="https://fallon.1iota.com/show/353/the-tonight-show-starring-jimmy-fallon#" class="linkArt grow">The Tonight Show</a> (¡al que se puede ir gratis si tines suerte!).</p>
+          <p>Por otro lado, la <b>Catedral de San Patricio</b> es imprescindible por su arquitectura neogótica y vidrieras impresionantes. La catedral es visitada por miles de turistas al día, nosotros fuimos a verla un domingo por la mañana y estaban tocando el órgano desde el piso superior. La <b>entrada es gratuita</b>, pero por cuestiones de seguridad seguramente te revisarán la mochila si entras con una. El lugar tiene además una tienda en la que puedes comprar rosarios, estampas, collares, etc. En definitiva, la catedral es un contraste a la jungla de cristal que la rodea y recomiendo su visita a todo el mundo.</p>
+        </div>
+
+        <figure>
+          <img src="./img/stpatrick.jpg" alt="Foto de la Catedral de San Patricio." class="artImg">
+          <figcaption>Catedral de San Patricio. Imagen de <a target="_blank" href="https://commons.wikimedia.org/wiki/File:NYC_-_St._Patrick%27s_Cathedral_-_Interior.JPG" class="footLink grow">Wikipedia Commons</a></figcaption>
+          </figure>
+
+        <div class="burbuja">
+          <p>Si seguimos para el sur, nos encontraremos con la <b>Biblioteca Pública de Nueva York</b> y a su lado, <b>Bryant Park</b>. De nuevo, la entrada a la biblioteca es gratuita, y recomiendo entrar para admirar su arquitectura, pero no te ilusiones demasiado, porque su gran sala que seguramente has visto en películas y series está reservada para el estudio, por lo que no se puede entrar.</p>
+        </div>
+
+        <figure>
+          <img src="./img/biblio.jpg" alt="Foto de la Biblioteca Pública de Nueva York." class="artImg">
+          <figcaption>Biblioteca Pública de Nueva York. Imagen de ajay_suresh en <a target="_blank" href="https://flickr.com/photos/83136374@N05/51396225599" class="footLink grow">flickr</a></figcaption>
+          </figure>
+
+        <div class="burbuja">
+          <h4>Tiendas</h4>
+          <p>Una vez hayas tenido suficiente de los iconos de la 5ª Avenida, puedes pasar la tarde por los cientos de tiendas que alberga.</p>
+          <ul>
+            <li><b>Nike NYC</b>: Una tienda de Nike de cinco plantas con sus últimas novedades, un taller de zapatillas y artículos exclusivos de Nueva York.</li>
+            <li><b>PUMA Flagship</b>: Otra tienda de ropa de tres plantas que tiene incluso un simulador de Fórmula 1.</li>
+            <li><b>The LEGO Store</b>: Dos plantas llenas de sets de LEGO, esculturas hechas con piezas y productos exclusivos de Nueva York.</li>
+            <li><b>Nintendo NY</b>: Tienda de dos plantas con estatuas de Super Mario Bros y productos de las franquicias más importantes de la compañía: Super Mario, The Legend of Zelda, Pokémon, Kirby, etc.</li>
+          </ul>
+        </div>
+
+        <h2>Más sobre la Ciudad</h2>
+
+        <a href="art5.html" class="grow catLink"><div class="catContainer">
+          <div><img src="./img/art5.png" alt="Icono de telescopio y de autobús" class="iconosCat"></div>
+          <div class="burbuja">
+            <h3 class="catH3">Observatorios y Autobuses</h3>
+            <p class="parCat">Una de las mayores atracciones de Nueva York es su imponente arquitectura de rascacielos y su contraste con otras áreas como Little Italy o Chinatown. ¿Cómo verlo todo?</p>
+          </div>
+        </div></a>
+
+      </article>
+    </main>
+
+    <footer>
+      <div class="footerDiv">
+        ¡Pulsa en el botón de abajo para probar a adivinar datos sobre Nueva York!
+      </div>
+      <div><input type="button" class="grow" onclick="randomizar();" value="Dato Curioso"></div>
+      <div id="credit">
+        Trabajo realizado por Hugo Manjón-Cabeza Taillefer para la PEC 1 de la asignatura 'Herramientas HTML & CSS'.
+      </div>
+    </footer>
+  </body>
+</html>

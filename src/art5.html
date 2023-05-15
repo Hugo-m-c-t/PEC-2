@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Nueva York de Hugo Manjón-Cabeza Taillefer</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="math.js"></script>
+    <script src="funciones.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="navFlex">
+        <div class="">
+        <a href="index.html"> <img id="logo" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        </div>
+    
+         <div>
+          <nav>
+              <ul>
+                  <li class="menuItem grow"><a  class="navLink" href="categorias.html">
+                      Categorías
+                      </a></li>
+              
+                  <li class="menuItem grow"><a class="navLink" href="presentacion.html">
+                      Sobre la Web 
+                      </a></li>
+                  
+                  <li class="menuItem grow"><a class="navLink" href="documentacion.html">
+                      Documentación 
+                      </a></li>
+                  </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    
+    <main class="fondo pattern">
+      <article>
+        <h1>Observatorios y Autobuses</h1>
+
+        <div class="burbuja">
+          <p>Una de las mayores atracciones de Nueva York es su imponente arquitectura de rascacielos y su contraste con otras áreas como Little Italy o Chinatown. ¿Cómo verlo todo? Tienes dos opciones.</p>
+        </div>
+
+        <div class="burbuja">
+          <h4>Observatorios</h4>
+          <p>Están repartidos por todo Manhattan y permiten ver la mayoría de los puntos de interés desde una gran altura. Eso sí, no son muy asequibles. Nosotros fuimos a <b>Top of the Rock</b>, el observatorio del edificio <b>Rockefeller</b>, y costaba $40 por persona para el acceso general (y ese observatorio era de los más baratos).</p>
+        </div>
+
+        <figure>
+          <img src="./img/observatory.jpg" alt="Foto de las vistas desde Top of the Rock." class="artImg">
+          <figcaption>Último piso de Top of the Rock. Imagen de <a target="_blank" href="https://commons.wikimedia.org/wiki/File:New_York._Rockefeller_Center_Observatory_%282739223924%29.jpg " class="footLink grow">Wikipedia Commons</a></figcaption>
+          </figure>
+
+        <div class="burbuja">
+          <h4>Tours de Sightseeing</h4>
+          <p>Otra opción de ver Nueva York es por la carretera. Utilizando un tour por bus puedes recorrer Manhattan de arriba abajo parando en los puntos más importantes. Nosotros utilizamos <a target="_blank" href="https://www.bigbustours.com/es/new-york/autobus-turistico-nueva-york" class="linkArt grow">Big Bus Tours</a>, que ofrece rutas tanto uptown como downtown. Los pases son diarios, así que puedes bajarte en cualquier punto y retomar la ruta cuando quieras. Como consejo, es mejor evitar coger el autobús cerca de Times Square, que es el punto inicial. La gran cantidad de gente hará que tengas que esperar una cola bastante larga, y seguramente no puedas sentarte en el piso superior del bus. Los autobuses <b>pasan cada media hora</b>.</p>
+          <p>Paradas interesantes:</p>
+          <ul>
+            <li>Estatua de la Libertad (Battery Park)</li>
+            <li>Wall Street</li>
+            <li>World Trade Center</li>
+            <li>Chinatown / Little Italy</li>
+          </ul>
+        </div>
+
+        <figure>
+          <img src="./img/bigbus.jpg" alt="Foto de un autobús Big Bus." class="artImg">
+          <figcaption>Autobús Big Bus. Imagen de Can Pac Swire en <a target="_blank" href="https://www.flickr.com/photos/18378305@N00/51050863996" class="footLink grow">Flickr</a></figcaption>
+          </figure>
+
+        <h2>Más sobre la Ciudad</h2>
+
+        <a href="art6.html" class="grow catLink"><div class="catContainer">
+          <div><img src="./img/art6.png" alt="Icono de catedral" class="iconosCat"></div>
+          <div class="burbuja">
+            <h3 class="catH3">5th Avenue</h3>
+            <p class="parCat">La Quinta Avenida es una de las zonas comerciales más famosas de la ciudad. Tiene una gran cantidad de tiendas y de puntos de interés, juntos entre sí y perfectos para pasar el día viéndolos.</p>
+          </div>
+        </div></a>
+
+      </article>
+    </main>
+
+    <footer>
+      <div class="footerDiv">
+        ¡Pulsa en el botón de abajo para probar a adivinar datos sobre Nueva York!
+      </div>
+      <div><input type="button" class="grow" onclick="randomizar();" value="Dato Curioso"></div>
+      <div id="credit">
+        Trabajo realizado por Hugo Manjón-Cabeza Taillefer para la PEC 1 de la asignatura 'Herramientas HTML & CSS'.
+      </div>
+    </footer>
+  </body>
+</html>

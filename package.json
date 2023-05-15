@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "npm": "^9.6.6",
+    "parcel-bundler": "^1.8.1",
+    "parse-nyc-address": "^0.4.0"
+  },
+  "name": "pec2",
+  "version": "1.0.0",
+  "browserslist": [
+    "defaults",
+    "last 2 versions",
+    "Safari >= 10",
+    "iOS >= 10",
+    "not ie <= 10",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.8.3",
+    "rimraf": "^5.0.0"
+  },
+  "scripts": {
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel src/index.html",
+    "parcel:build": "parcel build src/index.html",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "keywords": [],
+  "author": "Hugo Manjón-Cabeza Taillefer",
+  "license": "ISC",
+  "description": ""
+}

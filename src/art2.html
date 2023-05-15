@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Nueva York de Hugo Manjón-Cabeza Taillefer</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="math.js"></script>
+    <script src="funciones.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="navFlex">
+        <div class="">
+        <a href="index.html"> <img id="logo" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        </div>
+    
+         <div>
+          <nav>
+              <ul>
+                  <li class="menuItem grow"><a  class="navLink" href="categorias.html">
+                      Categorías
+                      </a></li>
+              
+                  <li class="menuItem grow"><a class="navLink" href="presentacion.html">
+                      Sobre la Web 
+                      </a></li>
+                  
+                  <li class="menuItem grow"><a class="navLink" href="documentacion.html">
+                      Documentación 
+                      </a></li>
+                  </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    
+    <main class="fondo pattern">
+      <article>
+        <h1>Central Park</h1>
+        
+          <div class="burbuja">
+            <p>Este parque es uno de los más reconocidos de la ciudad, e incluso del mundo. Tiene un área de 3,41 kilómetros cuadrados y es tan grande que incluso tiene carreteras por su interior.</p>
+            <p>¿Qué hacer en Central Park? Además de poder pasear o sentarte en la hierba a pasar la tarde, también se pueden hacer otras cosas.</p>
+            <ul>
+              <li>Visitar el zoo</li>
+              <li>Jugar al ajedrez y a las damas en Chess & Checkers House</li>
+              <li>Visitar <b>Strawberry Fields</b></li>
+            </ul>
+            <p>Este último lugar es un lugar del parque cercano al <b>edificio Dakota</b>, y es un tributo a John Lennon. Al acercarte al lugar comienzas a escuchar alguna canción de los Beatles, que cantan artistas callejeros en directo, y está repleto de gente que se queda a escuchar o a admirar el lugar.</p>
+          </div>
+
+          <figure>
+            <img src="./img/strawberry.jpg" alt="Foto de un tributo de flores en Strawberry Fields." class="artImg">
+            <figcaption>Tributo en Strawberry Fields. Imagen de <a target="_blank" href="https://www.centralpark.com/things-to-do/attractions/strawberry-fields/" class="footLink grow">centralpark.com</a></figcaption>
+            </figure>
+
+          <div class="burbuja">
+            <h4>Cómo recorrer Central Park en bicicleta</h4>
+            <p>Una de las actividades más divertidas es recorrer el parque al completo en bici utilizando su carretera, que da una vuelta completa de norte a sur, por dentro del parque. Esta carretera está reservada además de para ciclistas, para corredores e incluso coches de caballo.</p>
+            <p>Existen múltiples tiendas de alquileres de bici. En nuestro caso escogimos <a target="_blank" href="https://www.unlimitedbiking.com/new-york/rentals/" class="linkArt grow">Unlimited Biking</a>, debido a que teníamos un descuento por haber comprado un tour clásico en <a target="_blank" href="https://www.bigbustours.com/es/new-york/autobus-turistico-nueva-york" class="linkArt grow">Big Bus Tours</a>. Las bicis se alquilan como <b>mínimo dos horas</b>. En la web de Unlimited Biking sale que la bici básica cuesta $25/2 horas, pero en el propio local están a <b>$20/2 horas</b>. Tienen cientos de bicicletas, por lo que no debería ser un problema ir sin reservar.</p>
+            <p>La actividad en sí (recorrer Central Park) dura alrededor de esas dos horas. Nosotros nos paramos unas cuantas veces, y aún así nos dio tiempo a volver al local con unos 15 minutos de margen. El <b>nivel de dificultad</b> es <b>bajo</b>, ya que sólo se utilizan carreteras asfaltadas, pero debido al desnivel del parque hay ciertas cuestas bastantes prolongadas que pondrán a prueba tus piernas.</p>
+          </div>
+
+          <h2>Otros Puntos Emblemáticos</h2>
+          <a href="art1.html" class="grow catLink"><div class="catContainer">
+            <div><img src="./img/art1.png" alt="Icono de la Estatua de la Libertad" class="iconosCat"></div>
+            <div class="burbuja" style="border-color: #FF006E;">
+              <h3 class="catH3">Estatua de la Libertad</h3>
+              <p class="parCat">El elemento más icónico de Nueva York, la estatua de cobre erigida en 1876, ¿Cómo se puede visitar hoy en día?</p>
+            </div>
+          </div></a>
+      </article>
+      
+    </main>
+
+    <footer>
+      <div class="footerDiv">
+        ¡Pulsa en el botón de abajo para probar a adivinar datos sobre Nueva York!
+      </div>
+      <div><input type="button" class="grow" onclick="randomizar();" value="Dato Curioso"></div>
+      <div id="credit">
+        Trabajo realizado por Hugo Manjón-Cabeza Taillefer para la PEC 1 de la asignatura 'Herramientas HTML & CSS'.
+      </div>
+    </footer>
+  </body>
+</html>
