@@ -2,7 +2,7 @@
 
 function randomizar(){
     var lista = [pre1, pre2, pre3, pre4, pre5, pre6, pre7, pre8, pre9, pre10];
-    var pregunta = math.randomInt(9);
+    var pregunta = math.randomInt(10);
     return lista[pregunta]();
 }
 
@@ -141,4 +141,28 @@ function recibido() {
     //var num = math.randomInt(3);
     alert("Recibido!");
     //alert("¡Recibido! Te recomendamos alojarte en el hotel " + listaHoteles[num] + " que se encuentra en " + listaHoteles[num].dir["housenumber"] + " " + listaHoteles[num].dir["street"]);
+}
+
+function randArt(){
+    var randNum = math.randomInt(6);
+    switch (randNum) {
+        case 0:
+            window.location = "art1.html";
+            break;
+        case 1:
+            window.location = "art2.html";
+            break;
+        case 2:
+            window.location = "art3.html";
+            break;
+        case 3:
+            window.location = "art4.html";
+            break;
+        case 4:
+            window.location = "art5.html";
+            break;
+        case 5:
+            window.location = "art6.html";
+            break;
+    }
 }
