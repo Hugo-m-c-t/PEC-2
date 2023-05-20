@@ -11,8 +11,8 @@
   <body class="portada">
     <header>
       <div class="navFlex">
-        <div class="">
-        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.webp" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        <div>
+        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
         </div>
         <div class="titulos">MoMA - Museum of Modern Art</div>
         </div>
@@ -20,6 +20,12 @@
     
     <main class="fondo pattern">
       <article>
+        <picture>
+          <source media="(min-width: 1008px)" srcset="./img/momarep.webp">
+          <source media="(max-width: 1007px)" srcset="./img/momarep50.webp">
+          <img src="./img/momarep.jpg" alt="Foto de exposición de cuadros dentro del MoMA." class="artImg">
+          <figcaption>Exposición en el MoMA. Imagen de <a target="_blank" href="https://www.flickr.com/photos/kevharb/5391858379" class="footLink grow">Kevin Harber en Flickr</a></figcaption>
+        </picture>
         <div class="burbuja">
           <p>El Museo de Arte Moderno de Nueva York fue una de las mejores experiencias que me llevé de allí. Pasarás horas y horas examinando un laberinto de obras de múltiples épocas y lugares, entre las que se encuentran pinturas de <b>Monet y Van Gogh</b>, por ejemplo.</p>
         </div>
@@ -58,7 +64,7 @@
 
         <h2>Otros Museos</h2>
         <a href="art3.html" class="grow catLink"><div class="catContainer">
-          <div><img src="./img/art3.png" alt="Icono de dinosaurio" class="iconosCat"></div>
+          <div><img class="catImg catImg2" srcset="./img/MAHNres.webp, ./img/MAHN50.webp 2x" src="./img/art3.png" alt="Imagen de la entrada del MAHN" class="iconosCat"></div>
           <div class="burbuja" style="border-color: #FFBE0B">
             <h3 class="catH3">AMNH - American Museum of Natural History</h3>
             <p class="parCat">Uno de los museos más reconocidos de Nueva York con una cantidad absurda de contenido. ¿Cómo planificar la actividad?</p>

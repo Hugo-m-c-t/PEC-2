@@ -11,8 +11,8 @@
   <body class="portada">
     <header>
       <div class="navFlex">
-        <div class="">
-        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.webp" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        <div>
+        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
         </div>
         <div class="titulos">Central Park</div>
         </div>
@@ -20,6 +20,11 @@
     
     <main class="fondo pattern">
       <article>
+        <picture>
+          <source media="(min-width: 1008px)" srcset="./img/CentralPark.webp">
+          <source media="(max-width: 1007px)" srcset="./img/CentralPark50.webp">
+          <img src="./img/CentralPark.jpg" alt="Foto de Central Park desde el lago." class="artImg">
+        </picture>
           <div class="burbuja">
             <p>Este parque es uno de los más reconocidos de la ciudad, e incluso del mundo. Tiene un área de 3,41 kilómetros cuadrados y es tan grande que incluso tiene carreteras por su interior.</p>
             <p>¿Qué hacer en Central Park? Además de poder pasear o sentarte en la hierba a pasar la tarde, también se pueden hacer otras cosas.</p>
@@ -45,7 +50,7 @@
 
           <h2>Otros Puntos Emblemáticos</h2>
           <a href="art1.html" class="grow catLink"><div class="catContainer">
-            <div><img src="./img/art1.png" alt="Icono de la Estatua de la Libertad" class="iconosCat"></div>
+            <div><img class="catImg" srcset="./img/Estatuares.webp, ./img/Estatuapeq.webp 2x" src="./img/art1.png" alt="Imagen de la Estatua de la Libertad" class="iconosCat"></div>
             <div class="burbuja" style="border-color: #FF006E;">
               <h3 class="catH3">Estatua de la Libertad</h3>
               <p class="parCat">El elemento más icónico de Nueva York, la estatua de cobre erigida en 1876, ¿Cómo se puede visitar hoy en día?</p>

@@ -11,8 +11,8 @@
   <body class="portada">
     <header>
       <div class="navFlex">
-        <div class="">
-        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.webp" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        <div>
+        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
         </div>
         <div class="titulos">Observatorios y Autobuses</div>
         </div>
@@ -23,7 +23,12 @@
         <div class="burbuja">
           <p>Una de las mayores atracciones de Nueva York es su imponente arquitectura de rascacielos y su contraste con otras áreas como Little Italy o Chinatown. ¿Cómo verlo todo? Tienes dos opciones.</p>
         </div>
-
+        <picture>
+          <source media="(min-width: 1008px)" srcset="./img/ny.webp">
+          <source media="(max-width: 1007px)" srcset="./img/ny50.webp">
+          <img src="./img/ny.jpg" alt="Foto de Nueva York por la noche." class="artImg">
+          <figcaption>Nueva York por la noche. Imagen de <a target="_blank" href="https://commons.wikimedia.org/wiki/File:New_York._Rockefeller_Center_Observatory._Manhattan_%282711052297%29.jpg" class="footLink grow">Wikipedia Commons</a></figcaption>
+        </picture>
         <div class="burbuja">
           <h4>Observatorios</h4>
           <p>Están repartidos por todo Manhattan y permiten ver la mayoría de los puntos de interés desde una gran altura. Eso sí, no son muy asequibles. Nosotros fuimos a <b>Top of the Rock</b>, el observatorio del edificio <b>Rockefeller</b>, y costaba $40 por persona para el acceso general (y ese observatorio era de los más baratos).</p>
@@ -54,7 +59,7 @@
         <h2>Más sobre la Ciudad</h2>
 
         <a href="art6.html" class="grow catLink"><div class="catContainer">
-          <div><img src="./img/art6.png" alt="Icono de catedral" class="iconosCat"></div>
+          <div><img class="catImg catImg3" srcset="./img/stpatrickres.webp, ./img/stpatrick50.webp 2x" src="./img/art6.png" alt="Imagen de catedral de St Patricks" class="iconosCat"></div>
           <div class="burbuja">
             <h3 class="catH3">5th Avenue</h3>
             <p class="parCat">La Quinta Avenida es una de las zonas comerciales más famosas de la ciudad. Tiene una gran cantidad de tiendas y de puntos de interés, juntos entre sí y perfectos para pasar el día viéndolos.</p>

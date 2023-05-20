@@ -35,23 +35,11 @@
     }
 
     .portada{
-        background-image: url("./img/Estatua.jpg");
+        background-image: url("./img/Estatua.webp");
         min-height: 100vh;
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-    }
-
-    .Sobre{
-        background-image: url("./img/ny.jpg");
-    }
-
-    .portCat{
-        background-image: url("./img/subway.svg");
-    }
-
-    .docs{
-        background-image: url("./img/docs.jpg");
     }
 
     .fondo {
@@ -424,12 +412,20 @@
         background-repeat: no-repeat;
     }
 
+
     .artImg{
         width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 3em;
         border: 0.5em solid #424242; 
         outline: 0.5em solid #FFBE0B;
         border-radius: 2em;
+    }
+
+    picture .artImg {
+        width: 90%;
     }
 
     figcaption {
@@ -542,6 +538,31 @@
         margin: 2em auto 2em auto;
     }
 
+    picture{
+        width: auto;
+    }
+
+    .catImg{
+        height: 250px;
+        border: 10px solid #FF006E;
+        border-radius: 10px;
+        margin-bottom: 1em;
+    }
+
+    .catImg2{
+        border-color: #FFBE0B;
+    }
+
+    .catImg3{
+        border-color: #8338EC;
+    }
+
+    @media (max-width: 500px){
+        .catImg{
+            height: 150px;
+        }
+    }
+
     @media (max-width: 640px) {
         .ganchoItem , .footerDiv {
             line-height: 1.5em;
@@ -569,21 +590,24 @@
     }
 
     @media (min-width: 641px) {
-
         nav {
-                        width: fit-content;
-                        margin-left: auto;
-                        margin-right: auto;
-        }
-
+                            width: fit-content;
+                            margin-left: auto;
+                            margin-right: auto;
+            }
+       
+       
         nav ul{
             flex-direction: row;
             width: auto;
+            display:inline-block;
         }
 
         footer div{
             width: 25em;
         }
+
+        
 
         .ganchoItem{
             text-align: left;
@@ -612,8 +636,7 @@
         }
 
         .artImg{
-            width: 120%;
-            margin-left: -10%;
+            width: 100%;
             margin-bottom: 3em;
             border: 0.5em solid #424242; 
             outline: 0.5em solid #FFBE0B;
@@ -672,11 +695,7 @@
             margin-left: 2em;
             margin-bottom: 0;
             box-sizing: border-box;
-            height: 250px;
-        }
-
-        .heightCor{
-            height: 250px;
+            height: auto;
         }
 
         .catH3{
@@ -684,15 +703,21 @@
             margin-bottom: 0.2em;
         }
 
-        .artImg{
-            width: 120%;
-        }
 
         .titulos {
             margin-bottom: 0;
             font-size: 4em;
             margin-left: 0;
             margin-right: 3em;
+        }
+
+        nav ul{
+            display: flex;
+        }
+        
+        .catImg{
+            height: 250px;
+            margin-bottom: 0;
         }
 
         }

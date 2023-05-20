@@ -11,8 +11,8 @@
   <body class="portada">
     <header>
       <div class="navFlex">
-        <div class="">
-        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.webp" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        <div>
+        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
         </div>
         <div class="titulos">Estatua de la Libertad & Ellis Island</div>
         </div>
@@ -20,6 +20,11 @@
     
     <main class="pattern fondo">
       <article>
+        <picture>
+          <source media="(min-width: 1008px)" srcset="./img/Estatua.webp">
+          <source media="(max-width: 1007px)" srcset="./img/Estatuapeq.webp">
+          <img src="./img/Estatua.jpg" alt="Foto de la Estatua de la Libertad." class="artImg">
+        </picture>
       <div class="burbuja">
         <p>El elemento más icónico de <b>Nueva York</b> es la estatua de cobre, erigida en 1876. Junto con <b>Ellis Island</b>, eran los primeros lugares que pasajeros e inmigrates por barco veían.</p>
         <p>¿Cómo se puede visitar hoy en día?  Actualmente hay gran cantidad de páginas que permiten hacer reservas. Nosotros la hicimos desde la página de <a target="_blank" class="linkArt grow" href="https://www.cityexperiences.com/new-york/city-cruises/statue/statue-liberty-and-ellis-island-tickets/">City Experiences</a>, que te permite elegir entre cuatro opciones:</p>
@@ -56,7 +61,7 @@
 
       <h2>Otros Puntos Emblemáticos</h2>
         <a href="art2.html" class="grow catLink"><div class="catContainer">
-          <div><img src="./img/art2.png" alt="Icono de bicicleta" class="iconosCat"></div>
+          <div><img class="catImg" srcset="./img/CentralParkres.webp, ./img/CentralPark50.webp 2x" src="./img/art2.png" alt="Imagen de Central Park" class="iconosCat"></div>
           <div class="burbuja" style="border-color: #FF006E;">
             <h3 class="catH3">Central Park</h3>
             <p class="parCat">Este parque es uno de los más reconocidos de la ciudad, e incluso del mundo. Tiene un área de 3,41 kilómetros cuadrados y es tan grande que incluso tiene carreteras por su interior.</p>

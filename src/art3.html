@@ -11,8 +11,8 @@
   <body class="portada">
     <header>
       <div class="navFlex">
-        <div class="">
-        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.webp" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
+        <div>
+        <a href="index.html"> <img id="logo" srcset="./img/logopeq.webp 200w, ./img/logopeq280.webp 280w" sizes="(max-width: 640px) 280px, 200px" src="./img/logopeq.png" alt="Logo de la página. Se trata de las palabras Nueva York en un gris oscuro y amarillo con iconos del Empire State, Puente de Brooklyn y la Estatua de la Libertad rodeándolas." ></a>
         </div>
         <div class="titulos">Museo Americano de Historia Natural</div>
         </div>
@@ -25,10 +25,12 @@
           <p><b>¿Cómo planificar la actividad?</b> Los tickets se deben comprar en el sitio <a target="_blank" href="https://www.amnh.org/" class="linkArt grow">web oficial</a> del museo y van por hora, por lo que hay que asegurarse de llegar a tiempo. Además, hay que tener en cuenta las colas que se pueden formar. Nosotros fuimos un jueves a las 2 de la tarde y esperamos alrededor de 10-15 minutos. En cuanto a las entradas, además del acceso al museo, se pueden comprar tickets a <b>exhibiciones temporales</b> por un <b>precio añadido</b>.</p>
         </div>
 
-        <figure>
+        <picture>
+          <source media="(min-width: 1008px)" srcset="./img/MAHN.webp">
+          <source media="(max-width: 1007px)" srcset="./img/MAHN50.webp">
           <img src="./img/MAHN.jpg" alt="Foto de la entrada al Museo Americano de Historia Natural." class="artImg">
           <figcaption>Entrada del AMNH. Imagen de <a target="_blank" href="https://es.wikipedia.org/wiki/Museo_Americano_de_Historia_Natural#/media/Archivo:USA-NYC-American_Museum_of_Natural_History.JPG" class="footLink grow">Wikipedia</a></figcaption>
-          </figure>
+        </picture>
 
         <div class="burbuja">
           <h4>¿Qué hacer en el museo?</h4>
@@ -46,7 +48,7 @@
 
         <h2>Otros Museos</h2>
         <a href="art4.html" class="grow catLink"><div class="catContainer">
-          <div><img src="./img/art4.png" alt="Icono de pincel" class="iconosCat"></div>
+          <div><img class="catImg catImg2" srcset="./img/momarepres.webp, ./img/momarep50.webp 2x" src="./img/art4.png" alt="Imagen de exhibición del MoMA" class="iconosCat"></div>
           <div class="burbuja" style="border-color: #FFBE0B">
             <h3 class="catH3">MoMA - Museum of Modern Art</h3>
             <p class="parCat">Un laberinto de obras de múltiples épocas y lugares, entre las que se encuentran pinturas de Monet y Van Gogh, por ejemplo. ¿Cómo organizar la actividad?</p>
