@@ -35,11 +35,15 @@
     }
 
     .portada{
-        background-image: url("./img/Estatua.webp");
+        background-image: url("./img/Estatuapeq.jpg");
         min-height: 100vh;
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+    }
+
+    .portadaArt{
+        min-height: 100vh;
     }
 
     .fondo {
@@ -48,7 +52,7 @@
     }
 
     .pattern {
-        background-image: url("./img/pattern.png");
+        background-image: url("./img/patternpeq.png");
         min-height: 100vh;
         background-attachment: fixed;
         background-position: center;
@@ -663,6 +667,7 @@
         }
     }
 
+
     @media (min-width: 1008px) {
         
         .navFlex {
@@ -718,6 +723,14 @@
         .catImg{
             height: 250px;
             margin-bottom: 0;
+        }
+
+        .portada{
+            background-image: url("./img/Estatua.jpg");
+        }
+
+        .pattern{
+            background-image: url("./img/pattern.png");
         }
 
         }
