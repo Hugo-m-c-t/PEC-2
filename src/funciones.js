@@ -1,4 +1,3 @@
-//var parseNycAddress = require("parse-nyc-address");
 
 function randomizar(){
     var lista = [pre1, pre2, pre3, pre4, pre5, pre6, pre7, pre8, pre9, pre10];
@@ -138,9 +137,7 @@ var hotel3 = new Hotel ("The Central Park North", "137 W 111th St NY 10026 USA")
 var listaHoteles = [hotel1, hotel2, hotel3];
 
 function recibido() {
-    //var num = math.randomInt(3);
     alert("Recibido!");
-    //alert("¡Recibido! Te recomendamos alojarte en el hotel " + listaHoteles[num] + " que se encuentra en " + listaHoteles[num].dir["housenumber"] + " " + listaHoteles[num].dir["street"]);
 }
 
 function randArt(){
