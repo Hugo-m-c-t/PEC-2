@@ -124,18 +124,6 @@ function pre10() {
 
 }
 
-class Hotel {
-    constructor (nombre, dir){
-        this.nombre = nombre;
-        this.dir = parseNycAddress(dir); 
-    }
-}
-
-var hotel1 = new Hotel ("The Dominick", "246 Spring Street SoHo NY 10013 USA");
-var hotel2 = new Hotel ("Hampton Inn", "59 W 35th St NY 10001 USA");
-var hotel3 = new Hotel ("The Central Park North", "137 W 111th St NY 10026 USA");
-var listaHoteles = [hotel1, hotel2, hotel3];
-
 function recibido() {
     alert("Recibido!");
 }
