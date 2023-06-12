@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Blog Nueva York de Hugo Manjón-Cabeza Taillefer</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="math.js"></script>
-    <script src="funciones.js"></script>
+    <script defer src="math.js"></script>
+    <script defer src="funciones.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   </head>
   <body class="portadaArt">
@@ -34,7 +34,7 @@
         </div>
 
         <figure>
-            <img srcset="./img/nochepeq.webp 934w, ./img/noche.webp 1245w" sizes="(max-width: 640px) 934px, 1245px" src="./img/noche.jpg" alt="Foto de la Noche Estrellada de Van Gogh, expuesta en el MoMA." class="artImg">
+            <img loading="lazy" srcset="./img/nochepeq.webp 934w, ./img/noche.webp 1245w" sizes="(max-width: 640px) 934px, 1245px" src="./img/noche.jpg" alt="Foto de la Noche Estrellada de Van Gogh, expuesta en el MoMA." class="artImg">
             <figcaption>Noche Estrellada de Van Gogh.</figcaption>
         </figure>
 
@@ -56,7 +56,7 @@
         </div>
 
         <figure>
-          <img srcset="./img/MOMApeq.webp 1296w, ./img/MOMA.webp 1728w" sizes="(max-width: 640px) 1296px, 1728px" src="./img/MOMA.jpg" alt="Foto del jardín indetior del MoMA." class="artImg">
+          <img loading="lazy" srcset="./img/MOMApeq.webp 1296w, ./img/MOMA.webp 1728w" sizes="(max-width: 640px) 1296px, 1728px" src="./img/MOMA.jpg" alt="Foto del jardín indetior del MoMA." class="artImg">
           <figcaption>Jardín del MoMA. Imagen de <a target="_blank" href="https://commons.wikimedia.org/wiki/File:MOMAyard.JPG" class="footLink grow">Wikipedia Commons</a></figcaption>
       </figure>
 
@@ -67,7 +67,7 @@
 
         <h2>Otros Museos</h2>
         <a href="art3.html" class="grow catLink"><div class="catContainer">
-          <div><img class="catImg catImg2 iconosCat" srcset="./img/MAHNres.webp, ./img/MAHN50.webp 2x" src="./img/art3.png" alt="Imagen de la entrada del MAHN"></div>
+          <div><img loading="lazy" class="catImg catImg2 iconosCat" srcset="./img/MAHNres.webp, ./img/MAHN50.webp 2x" src="./img/art3.png" alt="Imagen de la entrada del MAHN"></div>
           <div class="burbuja" style="border-color: #FFBE0B">
             <h3 class="catH3">AMNH - American Museum of Natural History</h3>
             <p class="parCat">Uno de los museos más reconocidos de Nueva York con una cantidad absurda de contenido. ¿Cómo planificar la actividad?</p>

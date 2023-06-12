@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Blog Nueva York de Hugo Manjón-Cabeza Taillefer</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="math.js"></script>
-    <script src="funciones.js"></script>
+    <script defer src="math.js"></script>
+    <script defer src="funciones.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   </head>
   <body class="portadaArt">
@@ -32,7 +32,7 @@
         <picture>
             <source media="(min-width: 1008px)" srcset="./img/stpatrick.webp">
             <source media="(max-width: 1007px)" srcset="./img/stpatrick50.webp">
-            <img src="./img/stpatrick.jpg" alt="Foto de la Catedral de San Patricio." class="artImg">
+            <img loading="lazy" src="./img/stpatrick.jpg" alt="Foto de la Catedral de San Patricio." class="artImg">
           </picture>
         <figcaption>Catedral de San Patricio. Imagen de <a target="_blank" href="https://commons.wikimedia.org/wiki/File:NYC_-_St._Patrick%27s_Cathedral_-_Interior.JPG" class="footLink grow">Wikipedia Commons</a></figcaption>
       </figure>
@@ -42,7 +42,7 @@
         </div>
 
         <figure>
-          <img srcset="./img/bibliopeq.webp 600w, ./img/biblio.webp 800w" sizes="(max-width: 640px) 600px, 800px" src="./img/biblio.jpg" alt="Foto de la Biblioteca Pública de Nueva York." class="artImg">
+          <img loading="lazy" srcset="./img/bibliopeq.webp 600w, ./img/biblio.webp 800w" sizes="(max-width: 640px) 600px, 800px" src="./img/biblio.jpg" alt="Foto de la Biblioteca Pública de Nueva York." class="artImg">
           <figcaption>Biblioteca Pública de Nueva York. Imagen de ajay_suresh en <a target="_blank" href="https://flickr.com/photos/83136374@N05/51396225599" class="footLink grow">flickr</a></figcaption>
           </figure>
 
@@ -58,14 +58,14 @@
         </div>
 
         <figure>
-          <img srcset="./img/mapa5thpeq.jpg 2274w, ./img/mapa5th.jpg 3032w" sizes="(max-width: 640px) 2274px, 3032px" src="./img/mapa5th.jpg" alt="Mapa de Google que resalta la 5ª Avenida de Nueva York." class="artImg">
+          <img loading="lazy" srcset="./img/mapa5thpeq.jpg 2274w, ./img/mapa5th.jpg 3032w" sizes="(max-width: 640px) 2274px, 3032px" src="./img/mapa5th.jpg" alt="Mapa de Google que resalta la 5ª Avenida de Nueva York." class="artImg">
           <figcaption>5th Avenue de Nueva York. Imagen de Google en <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1FpJcXF1mYBU8ML9C1hkH65ywEwU&hl=en_US&ll=40.77430134831617%2C-73.965724&z=13" class="footLink grow">Google Maps</a></figcaption>
           </figure>
 
         <h2>Más sobre la Ciudad</h2>
 
         <a href="art5.html" class="grow catLink"><div class="catContainer">
-          <div><img class="catImg catImg3 iconosCat" srcset="./img/nyres.webp, ./img/ny50.webp 2x" src="./img/art5.png" alt="Imagen de Nueva York por la noche"></div>
+          <div><img loading="lazy" class="catImg catImg3 iconosCat" srcset="./img/nyres.webp, ./img/ny50.webp 2x" src="./img/art5.png" alt="Imagen de Nueva York por la noche"></div>
           <div class="burbuja">
             <h3 class="catH3">Observatorios y Autobuses</h3>
             <p class="parCat">Una de las mayores atracciones de Nueva York es su imponente arquitectura de rascacielos y su contraste con otras áreas como Little Italy o Chinatown. ¿Cómo verlo todo?</p>
